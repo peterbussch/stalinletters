@@ -1,0 +1,36 @@
+start = corpus
+corpus = element corpus { letter+ }
+letter = element letter { id, date, theme, location*, body }
+id = attribute id { xsd:int }
+date = element date { year, (text | xsd:int) }
+year = attribute year { xsd:int }
+theme = element theme { text }
+location = element theme { text }
+body =
+    element body {
+        (text
+         | xsd:int
+         | soviet_city
+         | policy
+         | agency
+         | person
+         | country
+         | punishment
+         | euphemism
+         | publication
+         | health
+         | closing)*
+    }
+soviet_city = element soviet_city { text }
+policy = element policy { name, text }
+name = attribute name { text }
+agency = element agency { name, text }
+person = element person { who, text }
+who = attribute who { text }
+country = element country { name, text }
+punishment = element punishment { who, text }
+euphemism = element euphemism { text }
+publication = element publication { who, text }
+health = element health { who, text }
+closing = element closing { type, text }
+type = attribute type { text }
