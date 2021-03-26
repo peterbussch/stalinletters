@@ -10,19 +10,19 @@ location = element theme { text }
 body =
     element body {
         (text
-         # | xsd:int
-         | soviet_city
+         #| xsd:int
+         | place
          | policy
          | agency
          | person
-         | country
+         | foreign_country
          | punishment
          | euphemism
          | publication
          | health
          | closing)*
     }
-soviet_city = element soviet_city { text }
+place = element place { text }
 policy = element policy { name, text }
 name = attribute name { text }
 # how is this different from person?
@@ -30,7 +30,7 @@ agency = element agency { name, text }
 person = element person { who, text }
 # you might also want to know more about the person, i.e. sender, receiver, or just mentioned as an attribute
 who = attribute who { text }
-country = element country { name, text }
+foreign_country = element country { name, text }
 punishment = element punishment { who, text }
 euphemism = element euphemism { text }
 publication = element publication { who, text }
