@@ -15,14 +15,12 @@ body =
          | policy
          | agency
          | person
-         | foreign_country
          | punishment
          | euphemism
          | publication
-         | health
          | closing)*
     }
-place = element place { text }
+place = element place { name, text }
 policy = element policy { name, text }
 name = attribute name { text }
 # how is this different from person?
@@ -30,11 +28,8 @@ agency = element agency { name, text }
 person = element person { who, text }
 # you might also want to know more about the person, i.e. sender, receiver, or just mentioned as an attribute
 who = attribute who { text }
-foreign_country = element country { name, text }
 punishment = element punishment { who, text }
 euphemism = element euphemism { text }
-publication = element publication { who, text }
-health = element health { who, text }
-# what is this indicating? that the theme of health is addressed? if so, you might want a more general element with the thopic as an attribute.
+publication = element publication { name, text }
 closing = element closing { type, text }
 type = attribute type { text }
