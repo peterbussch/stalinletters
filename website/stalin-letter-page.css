@@ -12,7 +12,8 @@ div {
   max-width: 443px;
   height: 59px;
   background-color: #006400;
-  text-align: center
+  text-align: center;
+  margin: auto;
 }
  
 .navbar a {
