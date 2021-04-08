@@ -23,7 +23,6 @@ body =
 place = element place { name, text }
 policy = element policy { name, text }
 name = attribute name { text }
-# how is this different from person?
 agency = element agency { name, text }
 person = element person { who, text }
 # you might also want to know more about the person, i.e. sender, receiver, or just mentioned as an attribute
