@@ -34,7 +34,7 @@
     <xsl:template match="letter" mode="toc">
         <ul>
             <li>
-                <a href="#letter/body">
+                <a href="#letter{@id}">
                    <ul> <xsl:text> (</xsl:text>
                     <xsl:apply-templates select="@id"/>
                        <xsl:text>)</xsl:text> </ul>
