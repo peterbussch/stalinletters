@@ -42,12 +42,6 @@
             </li>
         </ul>
     </xsl:template>
-    <xsl:template match="line">
-        <xsl:apply-templates/>
-        <xsl:if test="following-sibling::line">
-            <br/>
-        </xsl:if>
-    </xsl:template>
     <!-- letters-->
     <xsl:template match="letter">
         <section id="letter{@id}">
