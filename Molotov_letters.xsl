@@ -22,8 +22,9 @@
                 <h1>Letters between Joseph Stalin and Vyacheslav Molotov</h1>
                 <h2>Contents</h2>
                 <ul>
-                  <li><xsl:apply-templates select="//letter/@id" mode="toc"> </xsl:apply-templates></li>
-                </ul>
+                    <xsl:apply-templates select="//letter" mode="toc">
+                    </xsl:apply-templates>
+                </ul>c
                 <hr/>
                 <xsl:apply-templates/>
             </body>
@@ -33,7 +34,7 @@
     <xsl:template match="letter" mode="toc">
         <ul>
             <li>
-                <a href="#letter{@id}">
+                <a href="#letter/body">
                    <ul> <xsl:text> (</xsl:text>
                     <xsl:apply-templates select="@id"/>
                        <xsl:text>)</xsl:text> </ul>
