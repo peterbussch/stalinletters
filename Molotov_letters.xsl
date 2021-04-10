@@ -5,14 +5,7 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-    <!-- <xsl:sort select='translate(., "&apos;", "")'/> 
-     <xsl:template match="line">
-        <xsl:apply-templates/>
-        <xsl:if test="following-sibling::line">
-            <br/>
-            <xsl:text>&#x0A;</xsl:text>
-        </xsl:if>
-    </xsl:template> -->
+    
     <xsl:template match="/">
         <html>
             <head>
@@ -21,27 +14,51 @@
             <body>
                 <h1>Letters between Joseph Stalin and Vyacheslav Molotov</h1>
                 <h2>Contents</h2>
-                <ul>
-                    <xsl:apply-templates select="//letter" mode="toc">
-                    </xsl:apply-templates>
-                </ul>c
-                <hr/>
+                    <xsl:apply-templates select="//letter" mode="toc"> </xsl:apply-templates>
                 <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
+
     <!-- toc -->
     <xsl:template match="letter" mode="toc">
-        <ul>
-            <li>
-                <a href="#letter{@id}">
-                   <ul> <xsl:text> (</xsl:text>
+          <li> <strong> <a href="#letter{@id}">
+                
+                    <xsl:text> (</xsl:text>
                     <xsl:apply-templates select="@id"/>
-                       <xsl:text>)</xsl:text> </ul>
-                </a>
-            </li>
-        </ul>
+                        <xsl:text>)</xsl:text>
+           </a> </strong>
+           
+        
+           <a href="#letter{@id}">
+               
+              <em><xsl:apply-templates select="date" mode="toc"/>
+             
+                <xsl:apply-templates select="@year"/>
+                <xsl:text> </xsl:text>
+              </em>    
+                    <xsl:apply-templates select="body/opening" mode="toc"/>
+                
+                <xsl:apply-templates select="opening"/>
+                
+            </a>   
+          </li> 
+          
     </xsl:template>
+    
+    <xsl:template match="letter/body" mode="toc">
+            <a href="//body/opening">
+                    <xsl:text> (</xsl:text>
+                    <xsl:apply-templates select="opening"/>
+                    <xsl:text>)</xsl:text>
+            </a>
+    </xsl:template>
+
+    <!--   <xsl:text> (</xsl:text>
+    <xsl:apply-templates select="opening"/>
+    <xsl:text>)</xsl:text> -->
+
+
     <!-- letters-->
     <xsl:template match="letter">
         <section id="letter{@id}">
@@ -53,5 +70,8 @@
             </p>
         </section>
     </xsl:template>
-
+    
+    <xsl:template match="//letter/date/@year" mode="toc">
+            <xsl:apply-templates/>
+    </xsl:template>
 </xsl:stylesheet>
