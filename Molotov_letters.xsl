@@ -10,6 +10,7 @@
         <html>
             <head>
                 <title>Stalin's Letters to Molotov</title>
+                <link rel="stylesheet" type="text/css" href="readerview.css"/>
             </head>
             <body>
                 <h1>Letters between Joseph Stalin and Vyacheslav Molotov</h1>
@@ -31,8 +32,6 @@
                 </a>
                 <xsl:text> </xsl:text>
             </strong>
-
-
             <a href="#letter{@id}">
                 <em>
                     <xsl:apply-templates select="date" mode="toc"/>
@@ -43,7 +42,6 @@
                 <xsl:apply-templates select="opening"/>
             </a>
         </ul>
-
     </xsl:template>
 
     <xsl:template match="letter/body" mode="toc">
@@ -58,7 +56,6 @@
     <xsl:apply-templates select="opening"/>
     <xsl:text>)</xsl:text> -->
 
-
     <!-- letters-->
     <xsl:template match="letter">
         <section id="letter{@id}">
@@ -70,9 +67,48 @@
             </p>
         </section>
     </xsl:template>
-
     <xsl:template match="//letter/date/@year" mode="toc">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
+    <!-- Using span class in order to customize the view of our markup we performed on the documents -->
+    <xsl:template match="letter">
+        <xsl:apply-templates select="* except opening"/>
+    </xsl:template>
+
+    <xsl:template match="place">
+        <span class="place">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="policy">
+        <span class="policy">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="agency">
+        <span class="agency">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="person">
+        <span class="person">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="punishment">
+        <span class="punishment">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="ideology">
+        <span class="ideology">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+
+
+
+
 </xsl:stylesheet>
