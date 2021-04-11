@@ -1,16 +1,13 @@
 start = corpus
 corpus = element corpus { letter+ }
-letter = element letter { id, date, theme, location*, body }
+letter = element letter { id, date, location*, body }
 id = attribute id { xsd:int }
 date = element date { year, (text | xsd:int) }
 year = attribute year { xsd:int }
-theme = element theme { text }
-# will each letter have just one theme? something to consider
 location = element theme { text }
 body =
     element body {
         (text
-         #| xsd:int
          | place
          | policy
          | agency
