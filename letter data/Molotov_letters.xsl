@@ -72,6 +72,7 @@
         <span class="place">
             <xsl:apply-templates/>
         </span>
+        <a href=" " title="place/name"></a>
     </xsl:template>
     <xsl:template match="policy">
         <span class="policy">
