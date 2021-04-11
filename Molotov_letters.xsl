@@ -24,23 +24,18 @@
     <!-- toc -->
     <xsl:template match="letter" mode="toc">
         <ul>
-            <strong>
+            <li>
                 <a href="#letter{@id}">
                     <xsl:text> (</xsl:text>
                     <xsl:apply-templates select="@id"/>
                     <xsl:text>)</xsl:text>
-                </a>
-                <xsl:text> </xsl:text>
-            </strong>
-            <a href="#letter{@id}">
-                <em>
                     <xsl:apply-templates select="date" mode="toc"/>
                     <xsl:apply-templates select="@year"/>
                     <xsl:text> </xsl:text>
-                </em>
-                <xsl:apply-templates select="body/opening" mode="toc"/>
-                <xsl:apply-templates select="opening"/>
-            </a>
+                    <xsl:apply-templates select="body/opening" mode="toc"/>
+                </a>
+                <xsl:text> </xsl:text>
+            </li>
         </ul>
     </xsl:template>
 
@@ -72,9 +67,6 @@
     </xsl:template>
 
     <!-- Using span class in order to customize the view of our markup we performed on the documents -->
-    <xsl:template match="letter">
-        <xsl:apply-templates select="* except opening"/>
-    </xsl:template>
 
     <xsl:template match="place">
         <span class="place">
@@ -93,6 +85,11 @@
     </xsl:template>
     <xsl:template match="person">
         <span class="person">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="publication">
+        <span class="name">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
