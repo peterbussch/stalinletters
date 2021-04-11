@@ -15,7 +15,9 @@
             <body>
                 <h1>Letters between Joseph Stalin and Vyacheslav Molotov</h1>
                 <h2>Contents</h2>
-                <xsl:apply-templates select="//letter" mode="toc"> </xsl:apply-templates>
+                <ul>
+                    <xsl:apply-templates select="//letter" mode="toc"> </xsl:apply-templates>
+                </ul>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -23,20 +25,20 @@
 
     <!-- toc -->
     <xsl:template match="letter" mode="toc">
-        <ul>
-            <li>
-                <a href="#letter{@id}">
-                    <xsl:text> (</xsl:text>
-                    <xsl:apply-templates select="@id"/>
-                    <xsl:text>)</xsl:text>
-                    <xsl:apply-templates select="date" mode="toc"/>
-                    <xsl:apply-templates select="@year"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:apply-templates select="body/opening" mode="toc"/>
-                </a>
+
+        <li>
+            <a href="#letter{@id}">
+                <xsl:text> (</xsl:text>
+                <xsl:apply-templates select="@id"/>
+                <xsl:text>) </xsl:text>
+                <xsl:apply-templates select="date" mode="toc"/>
+                <xsl:apply-templates select="@year"/>
                 <xsl:text> </xsl:text>
-            </li>
-        </ul>
+                <xsl:apply-templates select="body/opening" mode="toc"/>
+            </a>
+            <xsl:text> </xsl:text>
+        </li>
+
     </xsl:template>
 
     <xsl:template match="letter/body" mode="toc">
@@ -72,7 +74,7 @@
         <span class="place">
             <xsl:apply-templates/>
         </span>
-        <a href=" " title="place/name"></a>
+        <a href=" " title="place/name"/>
     </xsl:template>
     <xsl:template match="policy">
         <span class="policy">
@@ -86,6 +88,7 @@
     </xsl:template>
     <xsl:template match="person">
         <span class="person">
+            <xsl:attribute name="title" select="'Uncle Joe'"/>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
