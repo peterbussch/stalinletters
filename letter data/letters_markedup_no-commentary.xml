@@ -44,8 +44,8 @@
     </letter>
     <letter id="2">
         <date year="1925">20 июля 1925 г.</date>
-        <body><opening>т.<person who="Molotov">Молотов</person>! В номере 159 (15 июля)</opening>
-            «Экономической жизни» читал заметку «Проверка проекта <place
+        <body><opening>т.<person who="Molotov">Молотов</person>! В номере 159 (15 июля)  «Экономической жизни» читал заметку</opening>
+            «Проверка проекта <place
                 name="Dnipropetrovsk/Dnipro">Днепровского</place>
             <policy name="Construction">строительства</policy>», из которой видно, что <agency
                 name="Communist Party">партия</agency> (и ВСНХ) может быть незаметно втянута в дело
@@ -106,7 +106,7 @@
     </letter>
     <letter id="4">
         <date year="1925">28 июля 1925 г.</date>
-        <body><opening><place name="Sochi">Сочи</place>Т.<person who="Molotov">Молотов</person>!
+        <body><opening><place name="Sochi">[Сочи]</place> Т.<person who="Molotov">Молотов</person>!
                 Надо подумать об орграспреде.</opening> Гей, кажется, не подойдет. Молод, мало
             известен, стаж не большой, не будет авторитетным. Так говорят все, кого ни спрашиваешь.
             Не подойдет и Криницкий, или — вернее*— он еще меньше подойдет, чем Гей (по тем же
@@ -151,7 +151,7 @@
     <letter id="6">
         <date year="1925">1 августа 1925 г.</date>
         <body><opening>
-                <place name="Sochi">Сочи</place><person who="Molotov">Молотов</person>! Мне сказали,
+                <place name="Sochi">[Сочи]</place> <person who="Molotov">Молотов</person>! Мне сказали,
                 что Мануильский не случайно, а сознательно передал «Юманите»</opening>
             первоначальный проект статьи <person who="Trotsky">Троцкого</person> для опубликования.
             Если это верно, то это безобразие. I" Если это верно, то тогда мы имеем дело не с '
@@ -225,7 +225,7 @@
         <date year="1925">9 августа 1925 г.</date>
         <body><opening><place name="Sochi">Сочи</place> 9/VIII—25. Тов. <person who="Molotov"
                     >Молотов</person>! Письмо прочти <person who="Bukharin">Бухарину</person>.
-                Письмо твое</opening> от 5/VIII получил. 1) Видимо, назначение Гея1 произошло до
+            Письмо твое от 5/VIII получил.</opening> 1) Видимо, назначение Гея1 произошло до
             получения тобой моего письма о назначении Шверника или кого-либо другого орграспредом.
             Уговор у нас насчет Гея, действительно, был, но потом я изменил свое мнение о чем и
             сообщил тебе, но, к сожалению, с опозданием. Что ж, посмотрим, как поведет себя Гей.
@@ -271,7 +271,7 @@
     <letter id="9">
         <date year="1925">18 августа (1925 г.</date>
         <body><opening> 18/VIII. Тов. <person who="Molotov">Молотов</person>! Опоздал с ответом.
-                Письмо</opening> Мануильского трусливое и жульническое. Свое заявление о
+            Письмо Мануильского трусливое и жульническое.</opening> Свое заявление о
             мошенничестве и пакостничестве поддерживаю целиком, несмотря на недовольство некоторых
             товарищей. Заявление <person who="Kamenev">Каменева</person> о том, что<person
                 who="Stalin"> Сталин</person> добивался, прежде всего,
@@ -289,7 +289,7 @@
     <letter id="10">
         <date year="1925">Август 1925 г.</date>
         <body><opening> Т. <person who="Molotov">Молотов</person>!1 Твое письмо от 20/VIII получил.
-                Сегодня</opening> беседовал с <person who="Bukharin">Бухариным</person>. 1) Ты
+            Сегодня беседовал с <person who="Bukharin">Бухариным</person>.</opening> 1) Ты
             предлагаешь порядок дня пленума2 в пять вопросов: 1 ) Внешторг, 2) профсоюзы, 3) <agency
                 name="Exec Committe of ComIntern">ИККИ</agency>, 4) зарплата, 5) земельная реформа в
             Средней 44 Азии. Против такого порядка я не возражаю. Важно подготовить вопрос о
@@ -327,8 +327,8 @@
     </letter>
     <letter id="11">
         <date year="1926">24 мая 1926 г.</date>
-        <body><opening> Здравствуй! Приехал на место в воскресенье вечером. Пого-да пока неважная.
-                Виды на</opening> урожай по Северщму Кавказу хорошие. Хорошо. Беленький
+        <body><opening> Здравствуй! Приехал на место в воскресенье вечером. Пого-да пока неважная.</opening>
+                Виды на урожай по Северщму Кавказу хорошие. Хорошо. Беленький
             рассказывает, что: 1 ) <person who="Trotsky">Троцкий</person> был в <place name="Moscow"
                 >Москве</place> еще в среду утром; 2) К нему ездил в <place name="Berlin"
                 >Берлин</place> Преображенский2 (на свидание?). Интересно. Ну, всего хорошего.
@@ -385,14 +385,14 @@
                 <person who="Trotsky">Троцкий</person> вторил ему. <person who="Bukharin"
                 >Бухарин</person>, не называя имен, говорил против них. <person who="Molotov"
                 >Молотов</person>. <person who="Bukharin">Бухарин</person>
-            <person who="Molotov">МОЛОТОВ</person> и <person who="Bukharin">БУХАРИН</person>
-                —<person who="Stalin"> СТАЛИНУ</person> 28 мая РЦХИДНИ. Ф. 82. Оп. 1. Д. 144. Л. 1.
+            <person who="Molotov">Молотов</person> и <person who="Bukharin">БУХАРИН</person>
+                —<person who="Stalin"> Сталину</person> 28 мая РЦХИДНИ. Ф. 82. Оп. 1. Д. 144. Л. 1.
             Машинописный текст, шифровка. </body>
     </letter>
     <letter id="14">
         <date year="1926">1 июня 1926 г.</date>
         <body><opening>
-                <person who="Molotov">МОЛОТОВ</person> —<person who="Stalin"> СТАЛИНУ</person>
+            <person who="Molotov">Молотов</person> —<person who="Stalin"> Сталину</person>
                 <person who="Bukharin">Бухарин</person> пишет контртезисы <person who="Zinoviev"
                     >Зиновьеву</person>.</opening> Последний вместе с <person who="Trotsky"
                 >Троцким</person> нас страшно торопит. Наши тезисы, по-моему, должны иметь характер
@@ -424,9 +424,9 @@
     </letter>
     <letter id="15">
         <date year="1926">2 июня 1926 г.</date>
-        <body><opening><person who="Stalin"> СТАЛИН</person> — <person who="Molotov"
-                    >МОЛОТОВУ</person> 2/VI 1926 г. ! <place name="Moscow">МОСКВА</place>. ; ЦК.
-                    <person who="Molotov">МОЛОТОВУ</person>1. | Шифровку получил сегодня.</opening>
+        <body><opening><person who="Stalin"> Сталин</person> — <person who="Molotov"
+                    >Молотову</person> 2/VI 1926 г. ! <place name="Moscow">МОСКВА</place>. ; ЦК.
+                    <person who="Molotov">Молотову</person>1. | Шифровку получил сегодня.</opening>
             Письмо <person who="Molotov">Молотова</person> \ не получал еще. Тезисы прочту немедля и
             сообщу. Не понимаю, как могут'они торопить вас, когда вы имеете большинство. Отложите
             вопрос еще на неделю и пошлите их к черту. Вопрос о тезисах : важный вопрос и его надо
@@ -435,15 +435,15 @@
             поставить на место.<person who="Stalin"> Сталин</person>. РЦХИДНИ. Ф. 558. Оп. 1. Д.
             3263. : Машинописный текст, шифровка. 61 I Примечание 1 Телеграмма отпечатана на бланке
                 За<place name="Transcaucasia">кавказского</place> краевого комитета ВКЛ(б).<person
-                who="Stalin"> СТАЛИН</person> — <person who="Molotov">МОЛОТОВУ</person> 2/VI 1926 г.
+                who="Stalin"> Сталин</person> — <person who="Molotov">Молотову</person> 2/VI 1926 г.
             ! <place name="Moscow">МОСКВА</place>. ; </body>
     </letter>
     <letter id="16">
         <date year="1926">Зиюня 1926 г.</date>
-        <body><opening><person who="Stalin"> СТАЛИН</person> — <person who="Molotov"
-                    >МОЛОТОВУ</person></opening>
+        <body><opening><person who="Stalin"> Сталин</person> — <person who="Molotov"
+                    >Молотову</person></opening>
             <agency name="Central Committee">ЦК</agency> ВКП, тов. <person who="Molotov"
-                >МОЛОТОВУ</person>. Расшифровать немедленно. Тезисы Гриши на деле исходят из того,
+                >Молотову</person>. Расшифровать немедленно. Тезисы Гриши на деле исходят из того,
             что: 1) стабилизация кончается или уже кончилась, 2) мы вступаем или уже вступили в
             полосу <ideology type="Revolutionary">революционных</ideology> взрывов, 3) тактика
             собирания сил и работа в реакционных профсоюзах теряет свое значение и отходит на задний
@@ -523,10 +523,10 @@
     </letter>
     <letter id="17">
         <date year="1926">3 июня 1926 г.</date>
-        <body><opening><person who="Stalin"> СТАЛИН</person> — <person who="Molotov"
-                    >МОЛОТОВУ</person>. <place name="Moscow">Москва</place>
+        <body><opening><person who="Stalin"> Сталин</person> — <person who="Molotov"
+                    >Молотову</person>. <place name="Moscow">Москва</place>
                 <agency name="Central Committee">ЦК</agency>ВКП, ТОВ.<person who="Molotov"
-                    >МОЛОТОВУ</person>. Расшифровать немедленно.</opening> Окончание шифровки номер
+                    >Молотову</person>. Расшифровать немедленно.</opening> Окончание шифровки номер
             * В тезисах <person who="Bukharin">Бухарина</person> надо обязательно учесть важнейшие
             ошибки <person who="Zinoviev">Зиновьева</person> в вопросе об анг- * Так в тексте.
             3—5351 65 лийской забастовке, о Пилсудском и <place name="China">Китайской</place>!
@@ -586,7 +586,7 @@
     </letter>
     <letter id="18">
         <date year="1926">3 июня 1926 г.</date>
-        <body><opening> ТОВСТУХА —<person who="Stalin"> СТАЛИНУ</person> Послана из </opening>
+        <body><opening> ТОВСТУХА —<person who="Stalin"> Сталину</person> Послана из </opening>
             <place name="Moscow">Москвы</place> 3/VI—26 г. Получена и расшифрована 3/VI. Тифлис.
             ЗКК. ОРДЖОНИКИДЗЕ. Расшифровать немедленно для тов.<person who="Stalin">
                 Сталина</person>. Вчера разослали членам <agency name="Politburo">Политбюро</agency>
@@ -608,10 +608,10 @@
     </letter>
     <letter id="19">
         <date year="1926">4 июня 1926 г.</date>
-        <body><opening> |<person who="Stalin"> СТАЛИН</person> — <person who="Molotov"
-                    >МОЛОТОВУ</person></opening>
+        <body><opening> |<person who="Stalin"> Сталин</person> — <person who="Molotov"
+                    >Молотову</person></opening>
             <place name="Moscow">МОСКВА</place>. <agency name="Central Committee">ЦК</agency>ВКП,
-            тов. <person who="Molotov">МОЛОТОВУ</person>. Расшифровать немедленно. Шифровка
+            тов. <person who="Molotov">Молотову</person>. Расшифровать немедленно. Шифровка
             получена. Я знал, что будет полное совпадение. Продолжайте в том же духе. Привет.
                 <person who="Stalin"> Сталин</person>. * Так в тексте. 69 Зашифрована и передана
             4/VI—11 часов. РЦХИДНИ. Ф. 558. Оп. 1. Д. 3340. ' Машинописный текст, шифровка. </body>
