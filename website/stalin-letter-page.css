@@ -56,9 +56,21 @@ div {
 }
 
 body {
-    background-color: #ffe5cc;
+    background-color: #B22222;
 }
 
-h1 {
+h1, h2 {
     text-align: center
+}
+
+section, ul {
+    border-style: solid;
+    background-color: #ffe5cc;
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    max-width: 800px;
+    margin: auto;
 }
