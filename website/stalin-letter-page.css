@@ -70,7 +70,15 @@ section, ul {
     margin: auto;
 }
 
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 p {
-    max-width: 800px;
+    /*max-width: 800px;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     margin: auto;
 }
