@@ -72,7 +72,6 @@
 
     <xsl:template match="place">
         <span class="place">
-            <xsl:attribute name="title" select="'A location'"/>
             <xsl:apply-templates/>
         </span>
         <a href=" " title="place/name"/>
