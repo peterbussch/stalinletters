@@ -59,8 +59,9 @@ p {
     border-style: solid;
     background-color: white;
     max-width: 600px;
-    margin: 2em;
+    margin: auto;
     text-align: center;
+    padding: 10px;
     /* float: right 
    position: absolute;
    top: ;
