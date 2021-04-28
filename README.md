@@ -1,0 +1,2 @@
+# stalinletters
+We are a group from SLAV 1050: Computational Methods in the Humanities at the University of Pittsburgh. Our work is hosted on Obdurodon, and you can find it here: http://stalin.obdurodon.org/index.xhtml. This work explores the correspondence between Joseph Stalin and Vyacheslav Molotov between 1925 and 1936. Our source material can be obtained at the following web address: http://militera.lib.ru/docs/da/stalin_molotov/index.html.
