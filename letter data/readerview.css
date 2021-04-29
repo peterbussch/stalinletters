@@ -8,7 +8,7 @@ span.agency{
   color:green;
 }
 span.person{
-  color:orange;
+  color:#0099ff;
 }
 span.publication{
   color:purple;
@@ -56,29 +56,9 @@ div {
 }
 
 body {
-    background-color: #B22222;
+    background-color: #faebd7;
 }
 
-h1, h2 {
+h1 {
     text-align: center
-}
-
-section, ul {
-    border-style: solid;
-    background-color: #ffe5cc;
-    max-width: 1200px;
-    margin: auto;
-}
-
-ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-p {
-    /*max-width: 800px;*/
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    margin: auto;
 }
