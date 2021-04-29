@@ -23,7 +23,8 @@
     <!-- Templates                                                  -->
     <!-- ========================================================== -->
     <xsl:template match="/">
-        <svg height="{1.2 * $yScale}">
+        <svg height="100%" width="665%">
+        <!--<svg height="{1.2 * $yScale}">-->
             <g transform="translate(30, 330)">
                 <!-- ============================================== -->
                 <!-- Plot in upper right, move down with @transform -->
@@ -62,6 +63,26 @@
         <xsl:variable name="statePos" select="position()" as="xs:integer"/>
         <xsl:variable name="xPosition" select="$statePos * $barInterval" as="xs:double"/>
         <xsl:variable name="policyRef" select="count(body/policy) div 20" as="xs:double"/>
+        <!--<xsl:variable name="publicationRef" select="count(body/publication) div 20" as="xs:double"/>-->
+       <!-- <xsl:variable name="barColor" as="xs:string" select="
+            if ($policy ge 1) then
+            'green'
+            "/>
+        <xsl:variable name="publicationRef" select="count(body/publication) div 20" as="xs:double"/>
+        <xsl:variable name="barColor" as="xs:string" select="
+            if ($publication ge 1) then
+            'red'
+            "/>-->
+       <!-- <xsl:variable name="typePolicy" select="count(policy[@name = 'Construction'])" as="xs:integer"/>
+        <xsl:variable name="barColor" as="xs:string" select="
+            if ($Construction ge 1) then
+            'green'
+            "/>
+        <xsl:variable name="typePolicy" select="count(policy[@name = 'Industrialization'])" as="xs:integer"/>
+        <xsl:variable name="barColor" as="xs:string" select="
+            if ($Industrialization ge 1) then
+            'red'
+            "/>-->
         <!--<xsl:variable name="demVotes" select="candidate[@party = 'Democrat']" as="xs:integer"/>
         <xsl:variable name="demPer" select="$demVotes div $totalVotes" as="xs:double"/>-->
         <xsl:variable name="letterID" select="@id" as="xs:string"/>
