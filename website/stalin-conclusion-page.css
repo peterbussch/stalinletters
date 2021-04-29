@@ -72,6 +72,10 @@ p {
     border-style: solid;
     background-color: white;
     max-width: 600px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     margin: auto;
     text-align: center;
     /* float: right 
