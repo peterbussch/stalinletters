@@ -1,0 +1,44 @@
+start = corpus
+corpus = element corpus { letter+ }
+letter = element letter { id, date, location*, body }
+id = attribute id { xsd:int }
+date = element date { year, (text | xsd:int) }
+year = attribute year { xsd:int }
+location = element theme { text }
+body =
+    element body {
+        (text
+         | opening
+         | place
+         | policy
+         | agency
+         | person
+         | punishment
+         | ideology
+         | publication
+         | closing)*
+    }
+opening = element opening {text, (text
+         | opening
+         | place
+         | policy
+         | agency
+         | person
+         | punishment
+         | ideology
+         | publication
+         | closing)*}
+place = element place { name, text }
+policy = element policy { name, text }
+#so we need to be a little bit liberal with the labels here. I'm interested in how "Money" \
+#correlates to certain things, but I don't have a perfect category for it, so policy will do
+name = attribute name { text }
+agency = element agency { name, text }
+person = element person { who, text }
+# you might also want to know more about the person, i.e. sender, receiver, or just mentioned as an attribute
+who = attribute who { text }
+punishment = element punishment { who, text }
+ideology = element ideology { type, text }
+publication = element publication { name*, text }
+closing = element closing { type, text }
+type = attribute type { text }
