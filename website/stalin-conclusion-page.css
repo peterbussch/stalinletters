@@ -97,6 +97,11 @@ p {
    width:
    */
 }
+<<<<<<< HEAD
+svg {
+    border-style: solid;
+    background-color: white;
+=======
 
 body {
   margin: 1em;
@@ -111,6 +116,7 @@ body {
 .quote figcaption,
 .quote blockquote {
   margin: 1em;
+>>>>>>> f78d4705c8fd8bc40fb22b7aee5a9485d8fb607e
 }
 * {
     -webkit-box-sizing: border-box;

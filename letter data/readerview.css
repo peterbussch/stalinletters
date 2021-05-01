@@ -1,0 +1,64 @@
+span.place{
+  color:red;
+}
+span.policy{
+  color:blue;
+}
+span.agency{
+  color:green;
+}
+span.person{
+  color:#0099ff;
+}
+span.publication{
+  color:purple;
+}
+span.ideology{
+  color:fuchsia;
+}
+div {
+    text-align: left;
+    /*border: double;*/
+    max-width:150px;
+    /*
+    display: inline-block;
+    float: left
+    position: relative
+    background-color: */
+}
+.navbar {
+  max-width: 443px;
+  height: 59px;
+  background-color: #006400;
+  text-align: center;
+  margin: auto;
+}
+ 
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+  font-size: 16px
+} 
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #696969 ;
+  color: black
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white
+}
+
+body {
+    background-color: #faebd7;
+}
+
+h1 {
+    text-align: center
+}
