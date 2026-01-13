@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" style="background-color: #8B0000;">
+  <circle cx="500" cy="350" r="250" fill="white" stroke="black" stroke-width="2"/>
+  <g>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 701.149444941667,498.455046393375 Z" fill="#FFA500" stroke="black" stroke-width="1"/>
+    <line x1="612.663743949986" y1="573.174552310903" x2="635.196492739984" y2="617.809462773083" stroke="gray" stroke-width="1"/>
+    <text x="635.196492739984" y="617.809462773083" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Collective Farms (14.9%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 689.492930786363,513.07185281953 Z" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+    <line x1="604.240195690332" y1="577.231119353053" x2="625.088234828398" y2="622.677343223663" stroke="gray" stroke-width="1"/>
+    <text x="625.088234828398" y="622.677343223663" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Rubles (13.7%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 683.262967957457,520.04318444273 Z" fill="#FF8C00" stroke="black" stroke-width="1"/>
+    <line x1="599.973006079935" y1="579.140563967494" x2="619.967607295922" y2="624.968676760993" stroke="gray" stroke-width="1"/>
+    <text x="619.967607295922" y="624.968676760993" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Construction (13.1%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 683.262967957457,520.04318444273 Z" fill="#FFD700" stroke="black" stroke-width="1"/>
+    <line x1="599.973006079935" y1="579.140563967494" x2="619.967607295922" y2="624.968676760993" stroke="gray" stroke-width="1"/>
+    <text x="619.967607295922" y="624.968676760993" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Industry (13.1%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 640.830014515906,556.559693578999 Z" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+    <line x1="573.688793602726" y1="588.893201446535" x2="588.426552323271" y2="636.671841735842" stroke="gray" stroke-width="1"/>
+    <text x="588.426552323271" y="636.671841735842" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Weight (Poods) (9.5%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 625,566.50635094611 Z" fill="#FA8072" stroke="black" stroke-width="1"/>
+    <line x1="564.70476127563" y1="591.481456572267" x2="577.645713530756" y2="639.77774788672" stroke="gray" stroke-width="1"/>
+    <text x="577.645713530756" y="639.77774788672" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Export (Trade) (8.3%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 564.70476127563,591.481456572267 Z" fill="#F0E68C" stroke="black" stroke-width="1"/>
+    <line x1="532.631548055013" y1="597.861215343452" x2="539.157857666015" y2="647.433458412143" stroke="gray" stroke-width="1"/>
+    <text x="539.157857666015" y="647.433458412143" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Foreign Policy (4.2%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 555.630233489078,593.731978045456 Z" fill="#008B8B" stroke="black" stroke-width="1"/>
+    <line x1="527.991119025827" y1="598.428052473311" x2="533.589342830992" y2="648.113662967973" stroke="gray" stroke-width="1"/>
+    <text x="533.589342830992" y="648.113662967973" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Cooperatives (3.6%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 555.630233489078,593.731978045456 Z" fill="#00008B" stroke="black" stroke-width="1"/>
+    <line x1="527.991119025827" y1="598.428052473311" x2="533.589342830992" y2="648.113662967973" stroke="gray" stroke-width="1"/>
+    <text x="533.589342830992" y="648.113662967973" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Bureaucracy (3.6%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 546.477901790729,595.641618308322 Z" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+    <line x1="523.340902113238" y1="598.908019735283" x2="528.009082535885" y2="648.68962368234" stroke="gray" stroke-width="1"/>
+    <text x="528.009082535885" y="648.68962368234" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Military (3%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 537.260566544044,597.207706556282 Z" fill="#DC143C" stroke="black" stroke-width="1"/>
+    <line x1="518.682523396606" y1="599.300949295295" x2="522.419028075927" y2="649.161139154354" stroke="gray" stroke-width="1"/>
+    <text x="522.419028075927" y="649.161139154354" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Agricultural (2.4%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 537.260566544044,597.207706556282 Z" fill="#90EE90" stroke="black" stroke-width="1"/>
+    <line x1="518.682523396606" y1="599.300949295295" x2="522.419028075927" y2="649.161139154354" stroke="gray" stroke-width="1"/>
+    <text x="522.419028075927" y="649.161139154354" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Import (Trade) (2.4%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 537.260566544044,597.207706556282 Z" fill="#4682B4" stroke="black" stroke-width="1"/>
+    <line x1="518.682523396606" y1="599.300949295295" x2="522.419028075927" y2="649.161139154354" stroke="gray" stroke-width="1"/>
+    <text x="522.419028075927" y="649.161139154354" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Education (2.4%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 537.260566544044,597.207706556282 Z" fill="#228B22" stroke="black" stroke-width="1"/>
+    <line x1="518.682523396606" y1="599.300949295295" x2="522.419028075927" y2="649.161139154354" stroke="gray" stroke-width="1"/>
+    <text x="522.419028075927" y="649.161139154354" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Constitution (2.4%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 527.991119025827,598.428052473311 Z" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+    <line x1="514.017611809298" y1="599.606703754454" x2="516.821134171157" y2="649.528044505345" stroke="gray" stroke-width="1"/>
+    <text x="516.821134171157" y="649.528044505345" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Imperialism (1.8%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 518.682523396606,599.300949295295 Z" fill="#87CEEB" stroke="black" stroke-width="1"/>
+    <line x1="509.347798569081" y1="599.8251761971" x2="511.217358282898" y2="649.79021143652" stroke="gray" stroke-width="1"/>
+    <text x="511.217358282898" y="649.79021143652" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Technology (1.2%)</text>
+    <path d="M 500,350 L 500,600 A 250,250 0 0,1 509.347798569081,599.8251761971 Z" fill="#CCCCCC" stroke="black" stroke-width="1"/>
+    <line x1="504.674716607726" y1="599.956290228187" x2="505.609659929271" y2="649.947548273824" stroke="gray" stroke-width="1"/>
+    <text x="505.609659929271" y="649.947548273824" font-family="serif" font-size="14" fill="black" text-anchor="start" dominant-baseline="middle">Sovkhoz (0.6%)</text>
+  </g>
+</svg>
